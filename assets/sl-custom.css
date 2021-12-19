@@ -6,18 +6,107 @@
     padding: 0%;
 }
 
-.full-page{
+.full-page {
     padding: 1%;
 }
 
-.icon{
+.icon {
     vertical-align: middle;
 }
 
-.short-spacer{
+.short-spacer {
     padding-left: 30px
 }
 
-.temp-display{
+.temp-display {
     text-align: right
 }
+
+.btn-circle {
+    width: 30px;
+    height: 30px;
+    padding: 6px 0px;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 12px;
+    line-height: 1.42857;
+}
+
+.btn-circle.btn-xl {
+    width: 70px;
+    height: 70px;
+    padding: 10px 16px;
+    border-radius: 35px;
+    font-size: 24px;
+    line-height: 1.33;
+}
+
+.ibrite-blue, .ibrite-blue:hover, .ibrite-blue:visited, .ibrite-blue:focus {
+    background-color: blue;
+    border-color: blue;
+}
+
+
+.ibrite-green, .ibrite-green:hover, .ibrite-green:visited, .ibrite-green:focus {
+    background-color: green;
+    border-color: green;
+}
+
+.ibrite-red, .ibrite-red:hover, .ibrite-red:visited, .ibrite-red:focus {
+    background-color: red;
+    border-color: red;
+}
+
+.ibrite-white, .ibrite-white:hover, .ibrite-white:visited, .ibrite-white:focus {
+    background-color: white;
+    border-color: black;
+
+}
+
+.ibrite-purple, .ibrite-purple:hover, .ibrite-purple:visited, .ibrite-purple:focus {
+    background-color: purple;
+    border-color: purple;
+}
+
+.btn-pwr-circle {
+    width: 38px;
+    height: 38px;
+    padding: 0px 0px;
+    border-radius: 35px;
+    text-align: center;
+    font-size: 16px;
+    line-height: 1.2;
+}
+
+.btn-setpoint-circle {
+    background-color: white;
+    width: 38px;
+    height: 38px;
+    padding: 0px 0px;
+    border-radius: 35px;
+    text-align: center;
+    font-size: 12px;
+    line-height: 1.2;
+    margin: 0;
+}
+
+/* restyle radio items */
+.radio-group .form-check {
+    padding-left: 0;
+}
+
+.radio-group .btn-group>.form-check:not(:last-child)>.btn {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.radio-group .btn-group>.form-check:not(:first-child)>.btn {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    margin-left: -1px;
+}
+
+
+/* body {
+    background-image: linear-gradient(90deg, #227894, #5e88b0, #3066dc);
+  } */

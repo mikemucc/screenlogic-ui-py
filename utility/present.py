@@ -4,11 +4,12 @@ def body_present(body_name: str, pool_data: dict) -> bool:
             return True
     return False
 
-def need_ui(pool_data: dict, ui_int: int):
+def need_ui(pool_data: dict, ui_int: int) -> bool:
     for config in pool_data['controllerConfig']['bodyArray']:
         if config['interface'] == ui_int:
             return True
     return False
+
 
 # Data I will need later for lights...
 # light_config['name'] = config['name']
