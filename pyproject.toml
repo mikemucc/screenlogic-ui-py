@@ -8,7 +8,7 @@ authors = ["Michael Mucciarone <mikemucc@gmail.com>"]
 python = "^3.9"
 pandas = "*"
 dash = "*"
-dash-bootstrap-components = "*"
+dash-bootstrap-components = {extras = ["pandas"], version = "^1.0.2"}
 requests = "*"
 python-dotenv = "^0.19.2"
 
